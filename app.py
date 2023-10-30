@@ -55,6 +55,7 @@ with z2:
 
 selected = option_menu(menu_title=  None, 
                             options = ['General_Chat' , 'Chat_With_PDF' ],
+                            icons= ['graph-up' , 'reception-4'],
                             orientation= "horizontal", )
 
 if selected == "Chat_With_PDF":
