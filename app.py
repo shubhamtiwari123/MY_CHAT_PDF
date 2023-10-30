@@ -22,6 +22,12 @@ from langchain.schema import (
     HumanMessage,
     AIMessage
 )
+headers{
+    "authorization"=st.secrets["OPENAI_API_KEY"]
+    "conetent_type":"application/json"
+
+
+}
 
 
 
